@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Welcome to break the wall!</title>
+    <link rel="stylesheet" href="./css/game.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h2 id="title">Let's break the wall!</h2>
+<div id="main_div">
+    <canvas id="myCanvas" width="480" height="320"></canvas>
+</div>
+<button class="btn btn-primary" type="submit" id="start" onclick="call();">Start Game!</button>
+
+
+<script src="./js/bricks.js"></script>
+<script src="./js/collisions.js"></script>
+<script src="./js/listeners.js"></script>
+<script src="./js/lives.js"></script>
+<script src="./js/paddle.js"></script>
+<script src="./js/scores.js"></script>
+<script src="./js/init_game.js"></script>
+</body>
+</html>
