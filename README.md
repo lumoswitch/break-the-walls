@@ -1,5 +1,7 @@
 # Break the walls
 
+<img src="banner.svg" width="100%" />
+
 A mini game written in javascript.
 
 ## How to play
